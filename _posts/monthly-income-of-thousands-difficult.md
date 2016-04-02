@@ -83,7 +83,7 @@ categories: 生活感悟
 
 依然举金融学的经典模型说明。现代金融理论和实务的基石CAPM的结论：
 
-![](https://zhihu.com/equation?tex=Ri-Rf%3D%5Cbeta+i+%EF%BC%88Rm-Rf%EF%BC%89%E5%85%B6%E4%B8%AD%5Cbeta+i+%3DCov%EF%BC%88Ri%2CRm%EF%BC%89%2FVar%28Rm%29)
+![](http://7xrl2u.com1.z0.glb.clouddn.com/equation0001.png)
 
 没有金融背景的同学不一定能看懂，不过不要紧。先简单讲一下这个公式，Ri表示任何一种资产i（可以是股票，债券，或者资产组合）的收益率（Return），Rf表示无风险收益率（可以简单粗暴地理解为储蓄存款利率，虽然理论上这样的理解是错误的），Rm表示资产i所在的市场的整体收益率，例如整个股票市场。而Beta则表示资产i的风险系数。它是资产i同市场的协方差与市场的方差之比。
 
