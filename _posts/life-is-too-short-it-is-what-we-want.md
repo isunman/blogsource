@@ -11,84 +11,84 @@ categories: 生活感悟
 
 ### 1、尝试逗他人开心，每天至少让三个人因你而微笑。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0001.jpg)
+![](https://i.postimg.cc/qBxrjY95/1456205478566426.jpg)
 
 ### 2、每天至少安静地坐十分钟。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0002.jpg)
+![](https://i.postimg.cc/tThb0m77/1456205482526617.jpg)
 
 ### 3、你不需要赢得每一场争论。赞同你不赞同的。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0003.jpg)
+![](https://i.postimg.cc/02tsqS5G/1456205487908408.jpg)
 
 ### 4、不要把自己看得太重要，其他人不会在乎的。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0004.jpg)
+![](https://i.postimg.cc/8zjVkCs2/1456205491546975.jpg)
 
 ### 5、别做八卦党，不要把你的宝贵能量用在无聊的八卦绯闻上。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0005.jpg)
+![](https://i.postimg.cc/ht6RXqdf/1456205495400750.jpg)
 
 ### 6、在你清醒的时候，你可以梦想更多。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0006.jpg)
+![](https://i.postimg.cc/cChNCgRS/1456205500992894.jpg)
 
 ### 7、别人怎么看待你，完全与你无关。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0007.jpg)
+![](https://i.postimg.cc/Rh4BvQnd/1456205505772668-1.jpg)
 
 ### 8、花更多时间跟这样的人在一起：年龄大于70岁、或者小于6岁。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0008.jpg)
+![](https://i.postimg.cc/FsF4qpvs/1456205509874225.jpg)
 
 ### 9、生命太短暂，我没时间讨厌你。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0009.jpg)
+![](https://i.postimg.cc/FRQtxgGv/1456205526340886.jpg)
 
 ### 10、微笑、大笑、笑哭了……让生活拥有更多欢笑
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0010.jpg)
+![](https://i.postimg.cc/mr9fM6YV/1456205515324739.jpg)
 
 ### 11、没有人能决定你的快乐，除了你自己。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0011.jpg)
+![](https://i.postimg.cc/2y2PrpYj/1456205563443853.jpg)
 
 ### 12、当你病了，你的工作不会在乎的，但你的朋友会，跟朋友们保持联络。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0012.jpg)
+![](https://i.postimg.cc/7YtpRyXm/1456205568257275.jpg)
 
 ### 13、每天睡8小时。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0013.jpg)
+![](https://i.postimg.cc/sXPkHQ0h/1456205572729404.jpg)
 
 ### 14、多喝水（每天至少摄入2升水）。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0014.jpg)
+![](https://i.postimg.cc/5yxZh4Zk/1456205576399627.jpg)
 
 ### 15、多读书，争取比上个月多读一本书。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0015.jpg)
+![](https://i.postimg.cc/zD7mnhhm/1456205581769081.jpg)
 
 ### 16、过去的就忘了吧，不要总是提起你的伴侣犯过什么错。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0016.jpg)
+![](https://i.postimg.cc/htJHW35g/1456205585570622.jpg)
 
 ### 17、不要把你的生活跟别人比较。你不知道其他人走过什么样的路。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0017.jpg)
+![](https://i.postimg.cc/3Jxs9wjk/1456205589771679.jpg)
 
 
 ### 18、每天慢跑10-30分钟。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0018.jpg)
+![](https://i.postimg.cc/bwK4zH7n/1456205594213644.jpg)
 
 ### 19、经常给家人打电话。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0019.jpg)
+![](https://i.postimg.cc/k5KzDRCp/1456205598893489.jpg)
 
 ### 20、留一些时间给自己，练习冥想、瑜伽和祈祷。
 
-![](http://7xrl2u.com1.z0.glb.clouddn.com/isunman20160320_wantlife_0020.jpg)
+![](https://i.postimg.cc/ZRmgNYKK/1456205603567533.jpg)
 
 以上，可能有点鸡汤了。
 
