@@ -1,44 +1,57 @@
 ---
-title: Discuz因图片分辨率过高造成提示“没有合法的文件被上传”的解决方案  
-tags: [PHP, Discuz]
+title: 对多维数组进行排序的函数array_multisort
+tags: [PHP]
 categories: 技术日记
 ---
 
-用相机拍的照片的分辨率是特别高的，分辨率达到3000*5000px以上级别，这么高的图片的品质肯定是杠杠的，但在网页上面来讲确实太大了，因为我们普通的网页也用不着展示这么高清这么大的图片。我觉得原因有二：一是因为我们普通的网页确实不需要这么大的；二是这么大的图片通常有好几兆甚至十几兆大小，这样页面的加载速度回很慢的。
+经常会面临这样的需求，虽然有时候我们可以在数据库查询的时候，直接对数据进行排序，但还是无法满足日益复杂的业务需求。这里边会用到两个函数一个是`array_column()`函数，这个函数接受三个参数。详情参见这里是从二维数组中抽出一个键的值，作为一个新的数组返回。
+另一个是`array_multisort()`函数，这个函数是一个排序函数，[详情参见这里](https://www.php.net/manual/zh/function.array-multisort.php)。
+它会依照第一个参数数组的排序规则，依照第一个参数数组的值在第三个参数重的位置对第三个参数进行排序。
 
-我们在Discuz中遇到一个问题，那就是上传某些图片的时候提示“没有合法的文件被上传”，而不是说您上传的文件太大了。想到不合法通常会想到的是图片的格式不对，不是普通的jpg或者png之类的，而是其他的非主流的图片格式。但不管把这样的图片转变成png还是jpg都不能上传，但吧图片一缩小却是可以上传的。这样不就是因为文件大小的问题么？（越大一般来讲文件体积也越大）。但检查后发现文件体积并没有超过网站限制以及对应服务器的php配置。用相机拍的照片的分辨率是特别高的，分辨率达到3000*5000px以上级别，这么高的图片的品质肯定是杠杠的，但在网页上面来讲确实太大了，因为我们普通的网页也用不着展示这么高清这么大的图片。我觉得原因有二：一是因为我们普通的网页确实不需要这么大的；二是这么大的图片通常有好几兆甚至十几兆大小，这样页面的加载速度回很慢的。
+听不明白吧？听不明白就对了，还是直接看代码来的实在：
 
-我们在Discuz中遇到一个问题，那就是上传某些图片的时候提示“没有合法的文件被上传”，而不是说您上传的文件太大了。想到不合法通常会想到的是图片的格式不对，不是普通的jpg或者png之类的，而是其他的非主流的图片格式。但不管把这样的图片转变成png还是jpg都不能上传，但吧图片一缩小却是可以上传的。这样不就是因为文件大小的问题么？（越大一般来讲文件体积也越大）。但检查后发现文件体积并没有超过网站限制以及对应服务器的
+    $orgin = array(
+     array(
+    	'id' => 5698,
+    	'first_name' => 'Bill',
+    	'last_name' => 'Gates',
+      ),
+     array(
+    	'id' => 4767,
+    	'first_name' => 'Steve',
+    	'last_name' => 'Jobs',
+     ),
+     array(
+    	'id' => 3809,
+    	'first_name' => 'Mark',
+    	'last_name' => 'Zuckerberg',
+      )
+    );
+    
+    $idArr = array_column($orgin, 'id');
+    array_multisort($idArr,SORT_ASC,$orgin);
+    var_dump($orgin);
 
-### php配置
 
-	function get_image_info($target, $allowswf = false) {
-	    $ext = discuz_upload::fileext($target);
-	    $isimage = discuz_upload::is_image_ext($ext);
-	    if(!$isimage && ($ext != 'swf' || !$allowswf)) {
-	        return false;
-	    } elseif(!is_readable($target)) {
-	        return false;
-	    } elseif($imageinfo = @getimagesize($target)) {
-	        list($width, $height, $type) = !empty($imageinfo) ? $imageinfo : array('', '', '');
-	        $size = $width * $height;
-	        if($size > 16777216 || $size < 16 ) {
-	            return false;
-	        } elseif($ext == 'swf' && $type != 4 && $type != 13) {
-	            return false;
-	        } elseif($isimage && !in_array($type, array(1,2,3,6,13))) {
-	            return false;
-	        } elseif(!$allowswf && ($ext == 'swf' || $type == 4 || $type == 13)) {
-	            return false;
-	        }
-	        return $imageinfo;
-	    } else {
-	        return false;
-	    }
-	}
+这个打印的结果是：
 
-这个方法就是获取图片的信息，而返回的值就是真或者假，而为假的时候就提示非法，为真的时候验证通过，上传流程正常执行。而其中就有一个$size变量，它的值是通过获取图片的长宽，然后长宽乘积得到，默认是16777216，开根之后是4096，也就是超过4096×4096px的图片就会之前的报错。而开始的时候我们上传的是5000*4000=2000000，这个值是大于设定的临界的，于是就返回flase。
+    array (size=3)
+     	 0 => 
+    array (size=3)
+      'id' => int 3809
+      'first_name' => string 'Mark' (length=4)
+      'last_name' => string 'Zuckerberg' (length=10)
+      1 => 
+    array (size=3)
+      'id' => int 4767
+      'first_name' => string 'Steve' (length=5)
+      'last_name' => string 'Jobs' (length=4)
+      2 => 
+    array (size=3)
+      'id' => int 5698
+      'first_name' => string 'Bill' (length=4)   
+      'last_name' => string 'Gates' (length=5)
 
-[原文链接](http://www.muquan.net/article/390.html)
+此函数有点意思。
 
 
