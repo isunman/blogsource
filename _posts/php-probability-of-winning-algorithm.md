@@ -1,6 +1,6 @@
 ---
 title: php中奖概率算法，可用于刮刮卡，大转盘等抽奖算法
-tags: [PHP 算法]
+tags: [PHP算法]
 categories: 技术日记
 ---
 
