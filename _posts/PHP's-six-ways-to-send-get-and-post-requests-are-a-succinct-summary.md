@@ -2,6 +2,7 @@
 title: php发送get、post请求的6种方法简明总结
 tags: [PHP]
 categories: 技术日记
+date: 2018-05-25 12:30
 ---
 
 ### 方法1: 用file_get_contents 以get方式获取内容：

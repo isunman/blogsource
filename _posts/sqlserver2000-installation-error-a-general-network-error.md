@@ -2,6 +2,7 @@
 title: 安装sqlserver2000出错，一般性网络错误
 tags: [SQLServer]
 categories: 服务器
+date: 2016-04-21 18:32
 ---
 
 ### 问题：

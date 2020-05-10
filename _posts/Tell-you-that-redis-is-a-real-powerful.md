@@ -2,6 +2,7 @@
 title: 告诉你Redis是一个牛逼货
 tags: [Redis]
 categories: 技术日记
+date: 2018-08-07 11:37
 ---
 
 

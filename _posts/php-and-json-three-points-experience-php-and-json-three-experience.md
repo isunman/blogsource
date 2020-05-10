@@ -2,6 +2,7 @@
 title: PHP与JSON的三点心得
 tags: [JSON,PHP]
 categories: 技术日记
+date: 2017-01-03 19:24
 ---
 
 ### 1、json_encode处理中文

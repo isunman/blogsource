@@ -2,6 +2,7 @@
 title: TeamViewer 好用的跨平台远程控制工具
 tags: [远程控制]
 categories: 网络工具
+date: 2016-03-06 13:53
 ---
 
 因为工作需要，急需一款远程控制类的工具，最好可以使用手机（Android和iOS 都支持）控制远程电脑（Mac OS 和 Windows 都支持）。

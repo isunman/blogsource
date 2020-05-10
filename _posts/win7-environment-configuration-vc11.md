@@ -2,6 +2,7 @@
 title: Win7 配置VC++11环境
 tags: [wamp]
 categories: 技术日记
+date: 2016-04-12 11:37
 ---
 
 首先，安装的Win7 旗舰版，注意不是 Win7 旗舰版 sp1的话，首先需要升级SP1补丁包，因为VC++11不能安装在Win7旗舰版上却可以安装在Win7旗舰版 SP1上。

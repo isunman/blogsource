@@ -2,6 +2,7 @@
 title: 用Hexo和Github搭建博客（2）：部署到Github
 tags: [Hexo]
 categories: Web构建
+date: 2016-02-25 21:46
 ---
 
 

@@ -2,6 +2,7 @@
 title: 用Hexo和Github搭建博客（1）：安装环境
 tags: [Hexo,Github]
 categories: Web构建
+date: 2016-02-25 19:25
 ---
 
 ## 安装git

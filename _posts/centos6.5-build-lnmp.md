@@ -2,6 +2,7 @@
 title: CentOS6.5搭建LNMP  
 tags: [lnmp]
 categories: Web构建
+date: 2016-08-17 19:27
 ---
 
 

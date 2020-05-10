@@ -2,6 +2,7 @@
 title: php中奖概率算法，可用于刮刮卡，大转盘等抽奖算法
 tags: [PHP算法]
 categories: 技术日记
+date: 2016-08-17 18:59
 ---
 
 

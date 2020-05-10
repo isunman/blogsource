@@ -2,6 +2,7 @@
 title: Hello World
 tags: [Hexo,github]
 categories: 技术日记
+date: 2016-02-25 18:46
 ---
 Hello，World！ 本文开篇第一回
 

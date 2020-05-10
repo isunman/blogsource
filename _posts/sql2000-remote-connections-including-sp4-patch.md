@@ -2,6 +2,7 @@
 title: Sql2000的远程连接（含Sp4补丁）  
 tags: [SQLServer]
 categories: 服务器
+date: 2016-04-21 18:36
 ---
 
 服务端配置:

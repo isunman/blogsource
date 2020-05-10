@@ -2,6 +2,7 @@
 title: Xcode错误：No matching provisioning profiles found
 tags: [iOS, Xcode]
 categories: iOS
+date: 2016-03-08 22:13
 ---
 
 **更新证书错误：No matching provisioning profiles found**

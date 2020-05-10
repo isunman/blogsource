@@ -2,6 +2,7 @@
 title: 用Hexo和github搭建博客（3）：Hexo介绍
 tags: [Hexo]
 categories: Web构建
+date: 2016-02-26 13:33
 ---
 
 ## 为什么是博客

@@ -2,6 +2,7 @@
 title: 彻底理解WebService SOAP WSDL
 tags: [WebService,SOAP]
 categories: 技术日记
+date: 2017-08-25 19:20
 ---
 
 ## WebServices简介

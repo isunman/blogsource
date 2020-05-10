@@ -2,6 +2,7 @@
 title: MySQL数据库升级或者迁移  
 tags: [wamp,MySQL]
 categories: Web构建
+date: 2016-04-12 12:56
 ---
 
 假设数据库根目录为 mysqlroot，则：

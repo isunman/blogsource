@@ -2,6 +2,7 @@
 title: Facebook一组火爆漫画：生命太短暂，什么才是我们想要的？
 tags: [生命, 思考]
 categories: 生活感悟
+date: 2016-03-20 14:34
 ---
 
 

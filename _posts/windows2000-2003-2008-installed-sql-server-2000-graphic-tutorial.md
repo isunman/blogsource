@@ -2,6 +2,7 @@
 title: windows2000/2003/2008中安装sqlserver 2000图文教程  
 tags: [SQLServer]
 categories: 服务器
+date: 2016-04-21 18:22
 ---
 
 

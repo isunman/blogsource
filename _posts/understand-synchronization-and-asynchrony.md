@@ -2,6 +2,7 @@
 title: 理解同步和异步
 tags: [技术概念]
 categories: 技术日记
+date: 2018-07-01 01:01
 ---
 
 
