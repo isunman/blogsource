@@ -13,9 +13,9 @@ Composer 是一个PHP类库管理器（官网http://docs.phpcomposer.com）。Co
 
 下面我来说说如何在 Discuz X3.1中使用 Composer 安装并使用第三方类库 ；
 
-## 先说安装Composer到Discuz X3.1框架下
+### 先说安装Composer到Discuz X3.1框架下
 
-### 一. 修改 `class_core.php (\source\class\class_core.php)` 如下
+#### 一. 修改 `class_core.php (\source\class\class_core.php)` 如下
 
     $autoloadfile=DISCUZ_ROOT.'/vendor/autoload.php';
     if(!file_exists($autoloadfile)){  
@@ -30,7 +30,7 @@ Composer 是一个PHP类库管理器（官网http://docs.phpcomposer.com）。Co
     	require_once  $autoloadfile;//如果存在Composer 加载器 ，则使用 ；
     }
 
-### 二. 在 Discuz 目录下，新建一个 composer.json 内容如下：
+#### 二. 在 Discuz 目录下，新建一个 composer.json 内容如下：
 
     {
 
@@ -43,7 +43,7 @@ Composer 是一个PHP类库管理器（官网http://docs.phpcomposer.com）。Co
         }
 	}
 
-### 三. 终端上执行命令 `composer install`
+#### 三. 终端上执行命令 `composer install`
 
 看到类似这样的执行结果，表示已经安装成功了
 
@@ -75,7 +75,7 @@ Composer 是一个PHP类库管理器（官网http://docs.phpcomposer.com）。Co
 
 具体如何安装及使用 Composer 请参阅 http://docs.phpcomposer.com
 
-## 在Discuz程序中如何使用 “composer安装”的第三方类库呢？
+### 再说在Discuz程序中如何使用 “composer安装”的第三方类库
 
 通过Composer autoload 加载器会把这些第三方库自动加载进来，这些第三方类库程序中的类、方法(函数)等等 在Discuz 程序中你想怎么用都可以。
 
@@ -101,4 +101,3 @@ Composer 是一个PHP类库管理器（官网http://docs.phpcomposer.com）。Co
     }
 
 另外，Discuz X3.2 也适用上述方法。
-
