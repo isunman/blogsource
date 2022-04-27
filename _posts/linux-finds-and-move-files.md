@@ -43,9 +43,12 @@ linux查找并移动文件
     find . -maxdepth 1 -name 'faverifyimage_*.png' -exec mv {} ./faverifyimgbk \;
     find . -maxdepth 1 -name 'faverifyimage_*.jpg' -exec mv {} ./faverifyimgbk \;
     find . -maxdepth 1 -name 'faverifyimage_*.jpeg' -exec mv {} ./faverifyimgbk \;
+<<<<<<< HEAD
 
 之后好久没更新。
 因为github在2021年08月13日之后停止了账号密码的登录机制。
+=======
+>>>>>>> 1005c8acaffa52e5d81b9fff2815f3f1febb6fdc
 　　
 
 
